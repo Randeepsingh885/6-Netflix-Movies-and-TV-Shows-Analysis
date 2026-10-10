@@ -1,0 +1,40 @@
+NETFLIX DATA ANALYSIS SUMMARY
+============================
+Rows after duplicate removal and release-year cleaning: 8807
+
+Content type counts:
+type
+Movie      6131
+TV Show    2676
+
+Top content ratings:
+rating
+TV-MA    3207
+TV-14    2160
+TV-PG     863
+R         799
+PG-13     490
+TV-Y7     334
+TV-Y      307
+PG        287
+TV-G      220
+NR         80
+
+Top genre/category assignments:
+listed_in
+International Movies        2752
+Dramas                      2427
+Comedies                    1674
+International TV Shows      1351
+Documentaries                869
+Action & Adventure           859
+TV Dramas                    763
+Independent Movies           756
+Children & Family Movies     641
+Romantic Movies              616
+
+Release year statistics (titles with a valid release year):
+{'minimum_release_year': 1925, 'maximum_release_year': 2021, 'median_release_year': 2017.0, 'mean_release_year': 2014.1801975701146}
+
+Charts saved in the outputs folder.
+Note: genre counts are category assignments; a single title may belong to multiple genres.
